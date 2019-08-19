@@ -1,0 +1,120 @@
+Last login: Mon Aug 19 08:10:13 on ttys000
+ jimzylui@Mac-mini  ~/resources/__projects  cs
+ jimzylui@Mac-mini  ~/resources/cyberSec  ls
+helpMemoryWhileDeveloping pyattck                   test
+labRecon                  tableOfContents.txt       twitter-bot
+massdns                   teamJohnW                 twitterScraper
+ jimzylui@Mac-mini  ~/resources/cyberSec  pr
+^C%                                                                              ✘ jimzylui@Mac-mini  ~/resources/cyberSec  ls
+helpMemoryWhileDeveloping pyattck                   test
+labRecon                  tableOfContents.txt       twitter-bot
+massdns                   teamJohnW                 twitterScraper
+ jimzylui@Mac-mini  ~/resources/cyberSec  run
+
+   *****************************
+   AVAILABLE GROUPS OF COMMANDS:
+   -----------------------------
+   venv: virtual environment commands
+   git_: commonly used git commands (in order)
+   docker_: commonly used dockerish commands
+ jimzylui@Mac-mini  ~/resources/cyberSec  venv
+
+    ****************************
+    Virtual Environment Commands
+    ----------------------------
+      run_ve: setup, active venv, install requirements
+      activate: start the venv
+      deactivate: close the venv
+      freeze: save venv dependencies into requirements.txt and display results
+      req: show dependencies (requirments.txt)
+    *****************************
+
+ jimzylui@Mac-mini  ~/resources/cyberSec  ~
+ jimzylui@Mac-mini  ~  ls
+   pip install -r requirements.txt
+}
+alias run_ve="python-activate-install()"
+
+alias docker_="echo '';
+                echo '   ********************************';
+                echo '   AVAILABLE CMDS USED WITH DOCKER/DOCKER-COMPOSE';
+                echo '   --------------------------------';
+                echo '   $ docker -v            // gets the version';
+                echo '   $ docker-compose up    // starts the container';
+                echo '   $ docker-compose down  // unloads the container';
+                echo '   $ docker-compose down -v // unloads and removes the container';
+
+
+                "
+alias run="echo '';
+           echo '   *****************************';
+           echo '   AVAILABLE GROUPS OF COMMANDS:';
+           echo '   -----------------------------';
+           echo '   venv: virtual environment commands';
+           echo '   git_: commonly used git commands (in order)';
+           echo '   docker_: commonly used dockerish commands';
+           "
+-- VISUAL BLOCK --                                  33x35     137,21-35     Bot
+   pip install -r requirements.txt
+}
+alias run_ve="python-activate-install()"
+
+alias docker_="echo '';
+                echo '   ********************************';
+                echo '   AVAILABLE CMDS USED WITH DOCKER/DOCKER-COMPOSE';
+                echo '   --------------------------------';
+                echo '   $ docker -v            // gets the version';
+                echo '   $ docker-compose up    // starts the container';
+                echo '   $ docker-compose down  // unloads the container';
+                echo '   $ docker-compose down -v // unloads and removes the conn
+tainer';
+
+
+                "
+alias run="echo '';
+           echo '   *****************************';
+           echo '   AVAILABLE GROUPS OF COMMANDS:';
+           echo '   -----------------------------';
+           echo '   venv: virtual environment commands';
+           echo '   git_: commonly used git commands (in order)';
+           echo '   docker_: commonly used dockerish commands';
+           "
+~
+-- VISUAL BLOCK --                                  33x35     137,21-35     Bot
+        echo '    Virtual Environment Commands';
+        echo '    ----------------------------';
+        echo '      run_ve: setup, active venv, install requirements';
+        echo '      activate: start the venv';
+        echo '      deactivate: close the venv';
+        echo '      freeze: save venv dependencies into requirements.txt and display results';
+        echo '      req: show dependencies (requirments.txt)';
+        echo '    *****************************';
+        echo '';"
+alias req="cat requirements.txt > less"
+
+python-activate-install(){
+   virtualenv -p python3 venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+}
+alias run_ve="python-activate-install()"
+
+alias docker_="echo '';
+                echo '   ********************************';
+                echo '   AVAILABLE CMDS USED WITH DOCKER/DOCKER-COMPOSE';
+                echo '   --------------------------------';
+                echo '   $ docker -v            // gets the version';
+                echo '   $ docker-compose up    // starts the container';
+                echo '   $ docker-compose down  // unloads the container';
+                echo '   $ docker-compose down -v // unloads and removes the container';
+
+
+                "
+alias run="echo '';
+           echo '   *****************************';
+           echo '   AVAILABLE GROUPS OF COMMANDS:';
+           echo '   -----------------------------';
+           echo '   venv: virtual environment commands';
+           echo '   git_: commonly used git commands (in order)';
+           echo '   docker_: commonly used dockerish commands';
+           "

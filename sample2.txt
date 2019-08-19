@@ -1,0 +1,33 @@
+alias cs='cd /Users/jimzylui/resources/cyberSec'
+
+alias zshconfig='vim ~/.zshrc'
+alias activate='source venv/bin/activate'
+alias venv="
+        echo '';
+        echo '    ****************************';
+        echo '    Virtual Environment Commands';
+        echo '    ----------------------------';
+        echo '      run_ve: setup, active venv, install requirements';
+        echo '      activate: start the venv';
+        echo '      deactivate: close the venv';
+        echo '      freeze: save venv dependencies into requirements.txt and display results';
+        echo '      req: show dependencies (requirments.txt)';
+        echo '    *****************************';
+        echo '';"
+alias req="cat requirements.txt > less"
+
+python-activate-install(){
+   virtualenv -p python3 venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+}
+alias run_ve="python-activate-install()"
+
+alias docker_="echo '';
+                echo '   ********************************';
+                echo '   AVAILABLE CMDS USED WITH DOCKER/DOCKER-COMPOSE';
+                echo '   --------------------------------';
+                echo '   $ docker -v            // gets the version';
+                echo '   $ docker-compose up    // starts the container';
+                echo '   $ docker-compose down  // unloads the container';
+"
